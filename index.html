@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la matrix de la encripcion</h1>
+    </header>
+
+    <div class="contenedor">
+        <div class="izquierda">
+            <textarea placeholder="Ingrese el texto ultrasecreto aquí..." id="texto-encriptar" rows="10"></textarea>
+            <button id="button-encriptar" onclick="encriptar()" value="Encriptar">Encriptar</button>
+            <button id="button-desencriptar" onclick="desencriptar()" value="Desencriptar">Desencriptar</button>
+            <button onclick="restaurarEstado()">Regresar a la matrix</button>  
+        </div>
+
+        <div class="derecha">
+            <p>Neo necesita algo que encriptar, no seas malit@ con el</p>  
+            <img class="img-text" src="neo.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
